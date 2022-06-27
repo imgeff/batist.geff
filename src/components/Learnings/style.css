@@ -1,0 +1,45 @@
+#learnings-section {
+  @apply
+  bg-neutral-900
+  mt-12
+  h-[110vh]
+  p-11
+  flex
+  flex-wrap
+  justify-center
+  items-center
+}
+
+#learnings-section h1 {
+  text-shadow: 0 0 3px black;
+
+  @apply
+  w-full
+  mt-10
+  text-4xl
+  text-center
+  text-emerald-500
+  font-semibold;
+}
+
+#learnings-box {
+  @apply
+  w-[90vw]
+  flex
+  items-center
+  justify-center;
+}
+
+.learnings-content {
+  @apply
+  w-3/4
+  py-10
+  flex
+  flex-wrap
+  gap-4
+  items-start
+  justify-center
+  border-2
+  border-emerald-600
+  rounded-xl;
+}
