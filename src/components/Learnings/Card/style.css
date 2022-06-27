@@ -1,12 +1,17 @@
+* {
+  transition: none;
+}
+
 #learning-card {
   @apply
-  w-64
+  w-[17rem]
   h-24
   relative
   flex
-  border
+  border-2
   border-neutral-800
-  rounded-lg;
+  rounded-lg
+  transition-none;
 }
 
 #learning-card .learning-icon {
@@ -42,7 +47,7 @@
   text-center
   font-semibold
   text-lg
-  text-emerald-500;
+  text-emerald-600;
 }
 
 #learning-card-info span {
@@ -55,16 +60,10 @@
   font-bold;
 }
 
-#learning-card-info span svg {
-  @apply
-  mx-2
-  mb-px;
-}
-
 #learning-card-info span strong {
   letter-spacing: .5px;
   @apply
-  text-emerald-500
+  text-neutral-600
   ml-1;
 }
 
@@ -82,7 +81,7 @@
   py-1
   border-2
   border-neutral-700
-  hover:border-emerald-500
+  hover:border-emerald-600
   hover:text-emerald-500
   transition-all
   cursor-pointer;
