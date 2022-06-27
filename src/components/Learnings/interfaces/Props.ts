@@ -1,12 +1,18 @@
-import { ReactElement } from 'react';
+import { ReactNode } from 'react';
 
-export interface IModalProps {
-  icon: ReactElement;
+interface IBasicToolInfo {
+  icons: { defaultIcon: ReactNode, customIcon: ReactNode };
   title: string;
+  level: string;
+  levelTip: string;
   description: string;
 }
 
-export interface ICardProps extends IModalProps {
-  level: string;
-  levelTip: string;
+export interface IModalProps extends IBasicToolInfo {
+  iconCurrentColor: string | undefined;
+}
+
+export interface ICardProps extends IBasicToolInfo {
+  stack: string;
+  defaultColor: string;
 }
