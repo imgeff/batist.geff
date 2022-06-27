@@ -9,10 +9,14 @@
 .learning-modal-box {
   @apply
   relative
+  flex
+  flex-wrap
+  justify-center
+  items-center
   bg-neutral-900
   border-2
-  border-neutral-700
   text-neutral-400
+  text-center
   !important;
 }
 
@@ -23,7 +27,29 @@
   text-lg
   text-center
   font-bold
-  text-emerald-500;
+  text-emerald-600;
+}
+
+.learning-modal-box span {
+  letter-spacing: .5px;
+  @apply
+  flex
+  items-center
+  justify-center
+  text-neutral-400
+  font-bold;
+}
+
+.learning-modal-box span svg {
+  @apply
+  mx-2
+  mb-px;
+}
+
+.learning-modal-box span strong {
+  letter-spacing: .5px;
+  @apply
+  ml-1;
 }
 
 .learning-modal-box p {
