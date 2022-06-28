@@ -1,0 +1,98 @@
+* {
+  transition: none;
+}
+
+#learning-card {
+  @apply
+  w-[17rem]
+  h-24
+  relative
+  flex
+  border-2
+  border-neutral-800
+  rounded-lg
+  transition-none;
+}
+
+#learning-card .learning-icon {
+  @apply
+  h-full
+  p-2
+  flex
+  flex-wrap
+  items-center
+  justify-center;
+}
+
+#learning-card .learning-icon svg {
+  @apply
+  w-14
+  h-14
+  rounded-lg;
+}
+
+#learning-card-info {
+  @apply
+    w-full
+    flex
+    flex-col
+    items-center
+    justify-center;
+}
+
+#learning-card-info h3 {
+  letter-spacing: .5px;
+  @apply
+  w-full
+  text-center
+  font-semibold
+  text-lg
+  text-emerald-600;
+}
+
+#learning-card-info span {
+  letter-spacing: .5px;
+  @apply
+  flex
+  items-center
+  justify-center
+  text-neutral-400
+  font-bold;
+}
+
+#learning-card-info span strong {
+  letter-spacing: .5px;
+  @apply
+  text-neutral-600
+  ml-1;
+}
+
+#learning-btn-description {
+  letter-spacing: .5px;
+  @apply
+  hidden
+  mt-1
+  text-sm
+  text-neutral-500
+  bg-neutral-900
+  font-bold
+  rounded-full
+  px-3
+  py-1
+  border-2
+  border-neutral-700
+  hover:border-emerald-600
+  hover:text-emerald-500
+  transition-all
+  cursor-pointer;
+}
+
+#learning-card:hover #learning-title-info {
+  transition: .5s;
+  display: none;
+}
+
+#learning-card:hover #learning-btn-description {
+  transition: .5s;
+  display: block;
+}

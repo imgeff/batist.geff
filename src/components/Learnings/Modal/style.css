@@ -1,0 +1,59 @@
+.learning-modal {
+  background: rgba(0, 0, 0, 0.35) !important;
+  -webkit-backdrop-filter: blur(2px) !important;
+  backdrop-filter: blur(2px) !important;
+  @apply
+  cursor-pointer;
+}
+
+.learning-modal-box {
+  @apply
+  relative
+  flex
+  flex-wrap
+  justify-center
+  items-center
+  bg-neutral-900
+  border-2
+  text-neutral-400
+  text-center
+  !important;
+}
+
+.learning-modal-box h3 {
+  letter-spacing: .5px;
+  @apply
+  w-full
+  text-lg
+  text-center
+  font-bold
+  text-emerald-600;
+}
+
+.learning-modal-box span {
+  letter-spacing: .5px;
+  @apply
+  flex
+  items-center
+  justify-center
+  text-neutral-400
+  font-bold;
+}
+
+.learning-modal-box span svg {
+  @apply
+  mx-2
+  mb-px;
+}
+
+.learning-modal-box span strong {
+  letter-spacing: .5px;
+  @apply
+  ml-1;
+}
+
+.learning-modal-box p {
+  @apply
+  py-4
+  !important;
+}
