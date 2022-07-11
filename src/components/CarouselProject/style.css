@@ -1,0 +1,166 @@
+#splide-box {
+  @apply
+    w-[56vw]
+    border-y-4
+    border-emerald-700
+    flex
+    justify-center
+    flex-col
+    p-5
+    rounded-xl
+  ;
+}
+
+.splide__arrow--prev {
+  @apply
+    -left-12
+    h-12
+    w-12
+  ;
+}
+
+.splide__arrow--next {
+  @apply
+    left-full
+    h-12
+    w-12
+  ;
+}
+
+.splide__arrow--prev svg,  .splide__arrow--next svg {
+  @apply
+    fill-emerald-400
+    h-12
+    w-12
+  ;
+}
+
+.splide__pagination {
+  @apply
+    -top-7
+    h-4
+    gap-px
+  ;
+}
+
+.splide__pagination__page {
+  background: #047857 !important;
+  transform: scale(1.1) !important;
+  @apply
+    w-4
+    rounded-md
+  ;
+}
+
+.splide__pagination__page.is-active {
+  background: #34d399 !important;
+  transform: scale(1.2) !important;
+}
+
+.projects-card {
+  @apply
+    flex
+    flex-col
+    items-center
+    justify-start
+    max-h-[25rem]
+    max-w-[30rem]
+    border-2
+    border-emerald-500
+    hover:border-neutral-400
+    rounded-xl
+  ;
+}
+
+.projects-card-image {
+  @apply
+    flex
+    items-start
+    justify-center
+    h-[11.3rem]
+    w-full
+    rounded-xl
+    border-2
+    border-b-0
+    border-black
+  ;
+}
+
+.projects-card-image img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE */
+  @apply
+    max-h-[11.2rem]
+    w-full
+    rounded-t-lg
+  ;
+}
+
+.projects-card:hover img {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  filter: none; /* IE */
+}
+
+.projects-card-content {
+  @apply
+    w-full
+    p-2
+    flex
+    flex-wrap
+    justify-center
+    items-center
+    bg-emerald-500
+    border-2
+    border-black
+  ;
+}
+
+.projects-card-content h2 {
+  letter-spacing: 1px;
+  @apply
+    w-full
+    font-black
+    text-lg
+    text-center
+    text-black
+  ;
+}
+
+.projects-card-content strong {
+  @apply
+    p-2
+    w-full
+    text-center
+    text-neutral-400
+  ;
+}
+
+.projects-card-links {
+  @apply
+    w-full
+    bg-neutral-400
+    p-2
+    flex
+    items-center
+    justify-evenly
+    rounded-b-xl
+    border-2
+    border-t-0
+    border-black
+  ;
+}
+
+.projects-card-links svg {
+  @apply
+    hover:scale-110
+    cursor-pointer
+  ;
+}
+
+.projects-card-links a {
+  @apply
+    cursor-pointer
+  ;
+}

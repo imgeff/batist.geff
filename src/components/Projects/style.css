@@ -1,0 +1,76 @@
+#projects-section {
+  @apply
+    h-[100vh]
+    flex
+    flex-wrap
+    items-center
+    justify-center
+    bg-black
+  ;
+}
+
+#projects-box {
+  @apply
+    h-3/4
+    w-[70vw]
+    flex
+    flex-wrap
+    items-start
+    justify-center
+    border-2
+    border-emerald-700
+    rounded-xl
+  ;
+}
+
+#projects-section h1 {
+  @apply
+    w-full
+    p-3
+    font-bold
+    text-4xl
+    text-center
+    text-emerald-500
+  ;
+}
+
+
+#projects-btn {
+  @apply
+    w-full
+    flex
+    justify-center
+    items-center
+  ;
+}
+
+#projects-btn > .btn-stack:nth-child(1) {
+  @apply
+    rounded-tl-lg
+    border-l-0
+  ;
+}
+
+#projects-btn > .btn-stack:nth-child(4) {
+  @apply
+    rounded-tr-lg
+    border-r-0
+  ;
+}
+
+.btn-stack {
+  @apply
+    w-full
+    py-3
+    text-center
+    text-xl
+    font-black
+    border-2
+    border-b-4
+    border-emerald-700
+    bg-emerald-500
+    text-neutral-900
+    hover:bg-emerald-400
+    transition-all
+  ;
+}
