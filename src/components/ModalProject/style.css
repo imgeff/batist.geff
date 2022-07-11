@@ -1,0 +1,81 @@
+.project-modal {
+  background: rgba(0, 0, 0, 0.35) !important;
+  -webkit-backdrop-filter: blur(2px) !important;
+  backdrop-filter: blur(2px) !important;
+  @apply
+  cursor-pointer;
+}
+
+.project-modal-box {
+  @apply
+  relative
+  flex
+  flex-col
+  justify-center
+  items-center
+  bg-neutral-900
+  border-2
+  border-neutral-800
+  text-neutral-400
+  text-start
+  !important;
+}
+
+#project-modal-content {
+  @apply
+    text-start
+    max-w-2xl
+    font-bold
+  ;
+}
+
+#project-modal-content iframe {
+  @apply
+    aspect-video
+    w-full
+    mb-5
+  ;
+}
+
+.project-modal-box h2 {
+  @apply
+    text-3xl
+    font-bold
+    text-emerald-600;
+  ;
+}
+
+.project-modal-box h3 {
+  @apply
+    font-bold
+    text-xl
+    text-emerald-600;
+  ;
+}
+
+
+#project-info {
+  @apply
+    w-full
+    flex
+    flex-col
+  ;
+}
+
+#project-info div {
+  @apply
+    w-full
+    flex
+    gap-2
+    items-center
+  ;
+}
+
+#project-info h3 {
+  letter-spacing: .5px;
+  @apply
+  text-lg
+  text-start
+  font-bold
+  text-emerald-600;
+}
