@@ -1,7 +1,7 @@
 import './style.css';
 import { useState } from 'react';
 import { Student, SoccerBall, GameController, RocketLaunch } from 'phosphor-react';
-import { AboutContent } from '../../utils/AboutContent';
+import { AboutContent } from '../../data/AboutData';
 
 function About() {
   const [aboutIndex, setAboutIndex] = useState(0);

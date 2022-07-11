@@ -1,4 +1,4 @@
-import { learnings } from '../../utils/LearningsContent';
+import { learnings } from '../../data/LearningsData';
 import { Card } from './Card';
 import './style.css';
 
