@@ -1,0 +1,26 @@
+footer {
+  background: rgba(21,21,20,0.95);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  @apply
+    w-full
+    h-16
+    mt-[10vh]
+    flex
+    justify-around
+    items-center
+    font-semibold
+    border-t-2
+  text-neutral-500
+  bg-black
+  border-neutral-900
+  ;
+}
+
+footer a {
+  @apply
+    mx-1
+    hover:text-emerald-500
+    transition-colors
+  ;
+}
