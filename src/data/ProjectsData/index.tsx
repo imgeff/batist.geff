@@ -2,7 +2,7 @@ import imgTrybeWallet from '../../images/TrybeWallet.png';
 import imgTrybeTunes from '../../images/TrybeTunes.png';
 import imgShoppingCart from '../../images/ShoppingCart.png';
 import imgSolarSystem from '../../images/SolarSystem.png';
-import imgTrybeWarts from '../../images/TrybeWarts.svg';
+import imgTrybeWarts from '../../images/TrybeWarts.png';
 import imgPixelArt from '../../images/PixelArt.png';
 import imgGenericFullStack from '../../images/em-progresso.svg';
 import { IProjects } from './interfaces';
@@ -116,7 +116,7 @@ export const ProjectsData: IProjects = {
         deploy: 'https://imgeff.github.io/shoppingCart/',
       },
       infos: {
-        description: 'Nesse projeto foi feito um carrinho de compras totalmente dinâmico! E o melhor: consumindo dados diretamente de uma API! a API do Mercado Livre para buscarmos produtos à venda.',
+        description: 'Nesse projeto foi feito um carrinho de compras totalmente dinâmico! Consumindo dados diretamente de uma API! a API do Mercado Livre para buscarmos produtos à venda.',
         functionalities: [
           'Pesquisar produtos',
           'Adicionar um produto ao carrinho',
