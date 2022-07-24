@@ -64,6 +64,15 @@ function Projects() {
           })
         }
       </div>
+      <a
+        href="https://github.com/imgeff?tab=repositories"
+        target="_blank"
+        rel="noreferrer"
+        id="link-repositories"
+        className="nav-link"
+      >
+        Repositórios no Github
+      </a>
     </section>
   );
 }
