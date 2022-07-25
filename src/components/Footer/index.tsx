@@ -1,4 +1,5 @@
 import './style.css';
+import ImgeffLogo from '../../images/IMGEFF.png';
 
 function Footer () {
 	return (
@@ -14,9 +15,7 @@ function Footer () {
       </a>
       - 2022
     </div>
-    <span>
-      Logo
-    </span>
+    <img src={ ImgeffLogo } alt="Logo com a escrita IMGEFF" />
   </footer>
 	);
 }
