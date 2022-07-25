@@ -1,9 +1,10 @@
 import './style.css';
+import ImgeffLogo from '../../images/IMGEFF.png';
 
 function Header () {
 	return (
 		<header id='header'>
-			<div>Logo</div>
+			<img src={ ImgeffLogo } alt="Logo com a escrita IMGEFF" />
 			<nav className='navbar'>
 				<ul className="list">
 					<li><a className='nav-link' href="#home">Início</a></li>
@@ -11,7 +12,6 @@ function Header () {
 					<li><a className='nav-link' href="#formation">Formação</a></li>
 					<li><a className='nav-link' href="#skills">Habilidades</a></li>
 					<li><a className='nav-link' href="#projects">Projetos</a></li>
-					<li><a className='nav-link' href="#contact">Contato</a></li>
 				</ul>
 			</nav>
 		</header>

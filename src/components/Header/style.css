@@ -1,12 +1,33 @@
 * {
-  @apply inset-0 p-0 transition-colors;
+  @apply
+    inset-0
+    p-0
+    transition-colors
+  ;
 }
 
 #header {
-  @apply flex justify-around h-16 items-center text-gray-400 font-semibold shadow-sm shadow-gray-300;
   background: rgba(21,21,20,0.95);
-  backdrop-filter: blur(5px);  
+  backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
+  @apply
+    fixed
+    flex
+    justify-around
+    h-16 items-center
+    text-gray-400
+    font-semibold
+    border-b-2
+    border-neutral-900
+    z-50
+  ;
+}
+
+#header img {
+  @apply
+    aspect-square
+    w-20
+  ;
 }
 
 .navbar {
@@ -15,19 +36,37 @@
 
 /* https://www.instagram.com/reel/CcDYfY3lAyC/?igshid=YmMyMTA2M2Y= */
 .nav-link {
-  @apply hover:text-gray-300 inline-block relative;
+  @apply
+    hover:text-gray-300
+    inline-block
+    relative
+  ;
 }
 
 .list {
-  @apply flex justify-evenly w-full list-none text-center;
+  @apply
+    flex
+    justify-evenly
+    w-full
+    list-none
+    text-center
+  ;
 }
 
 .nav-link::after {
-  @apply bg-emerald-400 h-0.5 w-full rounded absolute left-0 bottom-0;
   content: '';
   transform: scaleX(0);
   transform-origin: left;
   transition: transform .25s ease;
+  @apply
+    bg-emerald-400
+    h-0.5
+    w-full
+    rounded
+    absolute
+    left-0
+    bottom-0
+  ;
 }
 
 .nav-link:hover::after {
