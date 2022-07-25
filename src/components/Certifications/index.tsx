@@ -17,7 +17,7 @@ function Certifications () {
   }
 
   return(
-    <section id="certifications-section">
+    <section id="certifications">
       <h1>Certificações</h1>
       <div id="certifications-box">
         <div

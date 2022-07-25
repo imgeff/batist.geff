@@ -1,4 +1,4 @@
-#certifications-section {
+#certifications {
   @apply
   bg-black
   mt-12
@@ -10,7 +10,7 @@
   items-center
 }
 
-#certifications-section h1 {
+#certifications h1 {
   @apply
   w-full
   text-4xl

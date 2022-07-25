@@ -1,4 +1,4 @@
-#about-section {
+#about {
   @apply
   mt-72
   h-[80vh]
@@ -11,7 +11,7 @@
   p-6;
 }
 
-#about-section aside {
+#about aside {
   @apply
   flex
   flex-col
@@ -22,7 +22,7 @@
   mt-[65px];
 }
 
-#about-section aside svg {
+#about aside svg {
   transition: .4s;
   @apply
   rounded-2xl
@@ -53,7 +53,7 @@
   justify-center;
 }
 
-#about-section h1 {
+#about h1 {
   text-shadow: 0 0 3px black;
   @apply
   w-full

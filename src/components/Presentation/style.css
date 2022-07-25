@@ -1,5 +1,5 @@
-#presentation-section {
-  @apply flex items-center justify-center mt-40 mx-auto w-4/5 h-96;
+#presentation {
+  @apply flex items-center justify-center mt-40 mx-auto w-4/5 h-[50vh];
 }
 
 #presentation-box, .ilustration-box {

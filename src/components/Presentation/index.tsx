@@ -9,7 +9,7 @@ function Presentation() {
   useEffect(() => typeWriter(careerLabel), []);
 
   return (
-		<section id="presentation-section">
+		<section id="presentation">
       <div id="presentation-box">
         <div className="text-header">
           <h1>Olá, eu sou <br/><strong>Gefferson Batista.</strong></h1>

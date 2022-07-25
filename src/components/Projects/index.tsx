@@ -14,7 +14,7 @@ function Projects() {
   };
 
   return(
-    <section id="projects-section">
+    <section id="projects">
       <h1>Projetos</h1>
       <div id="projects-box">
         <div id="projects-btn">

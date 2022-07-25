@@ -1,4 +1,4 @@
-#projects-section {
+#projects {
   @apply
     h-[100vh]
     flex
@@ -22,7 +22,7 @@
   ;
 }
 
-#projects-section h1 {
+#projects h1 {
   @apply
     w-full
     my-10

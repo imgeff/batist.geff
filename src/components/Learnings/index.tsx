@@ -5,7 +5,7 @@ import './style.css';
 function Learnings() {
 
   return(
-    <section id="learnings-section">
+    <section id="learnings">
       <h1>Aprendizados</h1>
       <div id="learnings-box">
         <div className="learnings-content">
