@@ -57,9 +57,10 @@
   content: '';
   transform: scaleX(0);
   transform-origin: left;
-  transition: transform .25s ease;
+  transition: transform .25s ease-in-out;
+  background: rgb(11,23,18);
+  background: linear-gradient(90deg, rgba(11,23,18,1) 0%, rgba(16,185,129,1) 100%);
   @apply
-    bg-emerald-400
     h-0.5
     w-full
     rounded
