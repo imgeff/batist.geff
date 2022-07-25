@@ -1,6 +1,6 @@
 import './style.css';
 import { useEffect } from 'react';
-import { GithubLogo, LinkedinLogo, InstagramLogo, WhatsappLogo } from 'phosphor-react';
+import { GithubLogo, LinkedinLogo, InstagramLogo, WhatsappLogo, Envelope } from 'phosphor-react';
 import DeveloperImg from '../../images/Developer.png';
 import { typeWriter } from '../../helpers/animations/typeWriter';
 
@@ -27,6 +27,11 @@ function Presentation() {
           <li>
             <a href="https://www.linkedin.com/in/imgeff" className="daisy-tooltip" data-tip="Linkedin">
               <LinkedinLogo size={34} color="#a3a3a3" weight="fill" />
+            </a>
+          </li>
+          <li>
+            <a href="mailto:geffersonsilvaaraujo.gs@gmail.com" className="daisy-tooltip" data-tip="Email">
+              <Envelope size={34} color="#a3a3a3" weight="fill" />
             </a>
           </li>
           <li>
