@@ -17,15 +17,14 @@
   border-2
   border-neutral-800
   text-neutral-400
-  text-start
+  text-center
   !important;
 }
 
 #project-modal-content {
   @apply
-    text-start
+    text-center
     max-w-2xl
-    font-bold
   ;
 }
 
@@ -75,7 +74,7 @@
   letter-spacing: .5px;
   @apply
   text-lg
-  text-start
+  text-center
   font-bold
   text-emerald-600;
 }
