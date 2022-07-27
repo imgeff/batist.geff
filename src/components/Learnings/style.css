@@ -1,14 +1,16 @@
 #learnings {
   @apply
   bg-neutral-900
-  mt-12
-  h-[110vh]
-  w-full
-  p-11
-  flex
-  flex-wrap
-  justify-center
-  items-center
+    mt-12
+    h-[110vh]
+    w-full
+    p-11
+    flex
+    flex-wrap
+    justify-center
+    items-center
+    xl:h-[130vh]
+  ;
 }
 
 #learnings h1 {

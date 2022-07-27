@@ -31,7 +31,11 @@
 }
 
 .navbar {
-  @apply flex w-1/3;
+  @apply
+    flex
+    w-1/3
+    xl:w-1/2
+  ;
 }
 
 /* https://www.instagram.com/reel/CcDYfY3lAyC/?igshid=YmMyMTA2M2Y= */

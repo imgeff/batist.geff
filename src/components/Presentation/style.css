@@ -1,9 +1,22 @@
 #presentation {
-  @apply flex items-center justify-center mt-40 mx-auto w-4/5 h-[50vh];
+  @apply
+    flex
+    items-center
+    justify-center
+    mt-40
+    mx-auto
+    w-4/5
+    h-[50vh]
+    xl:w-full
+  ;
 }
 
 #presentation-box, .ilustration-box {
-  @apply h-72 flex items-center;
+  @apply
+    h-72
+    flex
+    items-center
+  ;
 }
 
 #presentation-box {
@@ -11,7 +24,20 @@
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
 
-  @apply w-1/2 h-80 flex flex-col justify-center p-8 rounded-xl border-[1px] border-neutral-800 shadow-sm shadow-neutral-900;
+  @apply
+    w-1/2
+    h-80
+    flex
+    flex-col
+    justify-center
+    p-8
+    rounded-xl
+    border-[1px]
+    border-neutral-800
+    shadow-sm
+    shadow-neutral-900
+    2xl:w-[50vw]
+  ;
 }
 
 .text-header {
@@ -35,7 +61,21 @@
 }
 
 .ilustration-box {
-  @apply w-3/12 h-80 ml-4 flex-col text-neutral-600 p-5 rounded-xl border border-neutral-800 shadow-sm shadow-neutral-900;
+  @apply
+    w-3/12
+    h-80
+    ml-4
+    flex-col
+    text-neutral-600
+    p-5
+    rounded-xl
+    border
+    border-neutral-800
+    shadow-sm
+    shadow-neutral-900
+    xl:w-[32vw]
+    2xl:w-[26vw]
+  ;
 }
 
 .image-box {

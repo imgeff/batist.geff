@@ -22,9 +22,8 @@ export function Carousel({ data }: IProps) {
             pagination: true,
             autoplay: true,
             pauseOnHover: true,
-            cover: true,
             perMove: 1,
-            perPage: 2,
+            perPage: 3,
           }
         }
       >
