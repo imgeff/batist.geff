@@ -4,7 +4,7 @@ import imgShoppingCart from '../../images/ShoppingCart.png';
 import imgSolarSystem from '../../images/SolarSystem.png';
 import imgTrybeWarts from '../../images/TrybeWarts.png';
 import imgPixelArt from '../../images/PixelArt.png';
-import imgGenericFullStack from '../../images/em-progresso.svg';
+import imgCapaImgeff from '../../images/capaImgeff.png';
 import { IProjects } from './interfaces';
 
 const BCRYPT = 'Bcrypt';
@@ -410,7 +410,7 @@ export const ProjectsData: IProjects = {
     {
       nameProject: 'Em Breve',
       media: {
-        img: imgGenericFullStack,
+        img: imgCapaImgeff,
         alt: 'várias camadas de quadrados um embaixo do outro',
         video: '',
       },

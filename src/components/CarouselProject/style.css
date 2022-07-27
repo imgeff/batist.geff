@@ -79,6 +79,7 @@
 
 .projects-card-image {
   @apply
+    relative
     flex
     items-start
     justify-center
@@ -101,10 +102,25 @@
   ;
 }
 
+.overlay-project {
+  background: rgba(255,255,255,0.1);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+
+  @apply
+    absolute
+    transition-all
+  ;
+}
+
 .projects-card:hover img {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
   filter: none;
+}
+
+.projects-card:hover .overlay-project {
+  opacity: 0;
 }
 
 .projects-card-content {

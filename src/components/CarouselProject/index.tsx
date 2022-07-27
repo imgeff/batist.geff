@@ -34,6 +34,7 @@ export function Carousel({ data }: IProps) {
               <SplideSlide key={ project.nameProject } className='projects-card'>
                 <figure className="projects-card-image">
                   <img src={ project.media.img } alt={ project.media.alt } />
+                  <span className='overlay-project' />
                 </figure>
                 <span className="projects-card-content">
                   <h2>{ project.nameProject }</h2>
