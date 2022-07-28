@@ -4,14 +4,17 @@
 
 #learning-card {
   @apply
-  w-[17rem]
-  h-24
-  relative
-  flex
-  border-2
-  border-neutral-800
-  rounded-lg
-  transition-none;
+    w-[17rem]
+    h-24
+    relative
+    flex
+    border-2
+    border-neutral-800
+    rounded-lg
+    transition-none
+    sm:w-52
+    xsm:w-44
+  ;
 }
 
 #learning-card .learning-icon {
@@ -26,9 +29,14 @@
 
 #learning-card .learning-icon svg {
   @apply
-  w-14
-  h-14
-  rounded-lg;
+    w-14
+    h-14
+    rounded-lg
+    sm:w-12
+    sm:h-12
+    xsm:w-8
+    xsm:h-8
+  ;
 }
 
 #learning-card-info {
@@ -43,21 +51,26 @@
 #learning-card-info h3 {
   letter-spacing: .5px;
   @apply
-  w-full
-  text-center
-  font-semibold
-  text-lg
-  text-emerald-600;
+    w-full
+    text-center
+    font-semibold
+    text-lg
+    text-emerald-600
+    sm:text-base
+    xsm:text-sm
+  ;
 }
 
 #learning-card-info span {
   letter-spacing: .5px;
   @apply
-  flex
-  items-center
-  justify-center
-  text-neutral-400
-  font-bold;
+    flex
+    items-center
+    justify-center
+    text-neutral-400
+    font-bold
+    xsm:text-[13px]
+  ;
 }
 
 #learning-card-info span strong {

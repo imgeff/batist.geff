@@ -21,6 +21,7 @@
     -left-12
     h-12
     w-12
+    xsm:-left-10
   ;
 }
 
@@ -29,6 +30,7 @@
     left-full
     h-12
     w-12
+    xsm:left-[98%]
   ;
 }
 
@@ -37,6 +39,8 @@
     fill-emerald-400
     h-12
     w-12
+    xsm:w-10
+    xsm:h-10
   ;
 }
 
@@ -74,6 +78,8 @@
     border-neutral-400
     hover:border-emerald-500
     rounded-xl
+    xsm:max-w-[21rem]
+    xsm:h-[17.4rem]
   ;
 }
 
@@ -99,6 +105,7 @@
     max-h-[11.2rem]
     w-full
     rounded-t-lg
+    xsm:h-44
   ;
 }
 
@@ -110,6 +117,7 @@
   @apply
     absolute
     transition-all
+    rounded-md
   ;
 }
 

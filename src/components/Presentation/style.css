@@ -55,6 +55,7 @@
   @apply
     text-5xl
     text-emerald-500
+    sm:text-3xl
   ;
 }
 
@@ -63,6 +64,7 @@
     text-xl
     text-neutral-600
     font-semibold
+    sm:text-lg
   ;
 }
 
@@ -71,6 +73,7 @@
     w-full
     text-lg
     text-neutral-400
+    sm:text-base
   ;
 }
 

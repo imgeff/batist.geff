@@ -19,7 +19,7 @@ export function Carousel({ data }: IProps) {
             wheel: true,
             direction: 'ltr',
             type: 'loop',
-            pagination: true,
+            pagination: false,
             autoplay: true,
             pauseOnHover: true,
             perMove: 1,

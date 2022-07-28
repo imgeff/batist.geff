@@ -27,7 +27,9 @@ module.exports = {
 
       'md': {'max': '767px'},
 
-      'sm': {'max': '639px'},
+      'sm': {'max': '663px'},
+
+      'xsm': {'max': '520px'},
     }
 	},
 	plugins: [require('daisyui')],

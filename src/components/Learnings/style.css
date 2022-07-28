@@ -19,12 +19,15 @@
   text-shadow: 0 0 3px black;
 
   @apply
-  w-full
-  mt-10
-  text-4xl
-  text-center
-  text-emerald-500
-  font-semibold;
+    w-full
+    mt-10
+    text-4xl
+    text-center
+    text-emerald-500
+    font-semibold
+    sm:text-3xl
+    xsm:text-2xl
+  ;
 }
 
 #learnings-box {
