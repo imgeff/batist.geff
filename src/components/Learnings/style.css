@@ -6,10 +6,12 @@
     w-full
     p-11
     flex
-    flex-wrap
+    flex-col
+    gap-10
     justify-center
     items-center
     xl:h-[130vh]
+    lg:h-[180vh]
   ;
 }
 

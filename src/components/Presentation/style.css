@@ -8,6 +8,9 @@
     w-4/5
     h-[50vh]
     xl:w-full
+    lg:flex-col-reverse
+    lg:gap-20
+    lg:h-[25vh]
   ;
 }
 
@@ -37,27 +40,45 @@
     shadow-sm
     shadow-neutral-900
     2xl:w-[50vw]
+    lg:w-[80vw]
+    lg:mt-40
   ;
 }
 
 .text-header {
-  @apply w-full;
+  @apply
+    w-full
+  ;
 }
 
 .text-header h1 {
-  @apply text-5xl text-emerald-500;
+  @apply
+    text-5xl
+    text-emerald-500
+  ;
 }
 
 .text-header label {
-  @apply text-xl text-neutral-600 font-semibold;
+  @apply
+    text-xl
+    text-neutral-600
+    font-semibold
+  ;
 }
 
 .text-body {
-  @apply w-full text-lg text-neutral-400;
+  @apply
+    w-full
+    text-lg
+    text-neutral-400
+  ;
 }
 
 .text-body p {
-  @apply w-4/5;
+  @apply
+    w-4/5
+    lg:w-full
+  ;
 }
 
 .ilustration-box {
@@ -75,27 +96,63 @@
     shadow-neutral-900
     xl:w-[32vw]
     2xl:w-[26vw]
+    lg:hidden
   ;
 }
 
 .image-box {
-  @apply h-full w-full bg-neutral-600 rounded;
+  @apply
+    h-full
+    w-full
+    bg-neutral-600
+    rounded
+  ;
+}
+
+.image-box img {
+    @apply
+    lg:w-[50vw]
+    lg:m-auto
+  ;
 }
 
 .links-box {
-  @apply flex justify-start items-center w-full mt-8;
+  @apply
+    flex
+    justify-start
+    items-center
+    w-full
+    mt-8
+  ;
 }
 
 .links-box li {
-  @apply flex flex-col items-center mr-3 hover:animate-bounce;
+  @apply
+    flex
+    flex-col
+    items-center
+    mr-3
+    hover:animate-bounce
+  ;
 }
 
 .links-box svg {
-  @apply mx-auto border-2 border-neutral-400 rounded-full p-1 hover:border-emerald-500;
+  @apply
+    mx-auto
+    border-2
+    border-neutral-400
+    rounded-full
+    p-1
+    hover:border-emerald-500
+  ;
 }
 
 #career-text::after {
-  @apply ml-1 opacity-10 text-emerald-500;
+  @apply
+    ml-1
+    opacity-10
+    text-emerald-500
+  ;
   content: '|';
   animation: blink .7s infinite;
 }

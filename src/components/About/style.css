@@ -8,18 +8,23 @@
   flex-wrap
   items-center
   justify-center
-  p-6;
+  p-6
+  lg:p-0
+  ;
 }
 
 #about aside {
   @apply
-  flex
-  flex-col
-  gap-5
-  justify-center
-  items-center
-  mr-10
-  mt-[65px];
+    flex
+    flex-col
+    gap-5
+    justify-center
+    items-center
+    mr-10
+    mt-[65px]
+    lg:mx-0
+    lg:flex-row
+  ;
 }
 
 #about aside svg {
@@ -53,6 +58,8 @@
     justify-center
     xl:w-5/6
     2xl:w-2/3
+    lg:flex-col-reverse
+    lg:w-11/12
   ;
 }
 
@@ -68,8 +75,10 @@
 
 #about-text {
   @apply
-  w-5/6
-  text-neutral-400;
+    w-5/6
+    text-neutral-400
+    lg:w-full
+  ;
 }
 
 #about-text p {
