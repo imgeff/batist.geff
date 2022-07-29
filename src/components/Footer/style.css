@@ -24,3 +24,10 @@ footer a {
     transition-colors
   ;
 }
+
+footer img {
+  @apply
+    aspect-square
+    w-20
+  ;
+}

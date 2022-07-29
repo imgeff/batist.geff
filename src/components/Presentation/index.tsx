@@ -1,22 +1,23 @@
 import './style.css';
 import { useEffect } from 'react';
-import { GithubLogo, LinkedinLogo, InstagramLogo, WhatsappLogo } from 'phosphor-react';
+import { GithubLogo, LinkedinLogo, InstagramLogo, WhatsappLogo, Envelope } from 'phosphor-react';
 import DeveloperImg from '../../images/Developer.png';
 import { typeWriter } from '../../helpers/animations/typeWriter';
 
 function Presentation() {
-  const careerLabel = document.getElementById('career-text');
-  useEffect(() => typeWriter(careerLabel), []);
-
+  useEffect(() => {
+    const careerLabel = document.getElementById('career-text');
+    typeWriter(careerLabel);
+  }, []);
   return (
-		<section id="presentation-section">
+		<section id="presentation">
       <div id="presentation-box">
         <div className="text-header">
-          <h1>Olá, eu sou <br/><strong>Gefferson Batista.</strong></h1>
+          <h1>Olá, eu sou <br/><strong>Gefferson Batista. </strong></h1>
           <label id="career-text">Desenvolvedor Front-end</label>
         </div>
         <div className="text-body">
-          <p>Eu desenvolvo sites com JavaScript em React.js, e atualmente estou descobrindo o Universo Back-end com Node.js</p>
+          <p>Eu desenvolvo sites com JavaScript em React.js, e atualmente estou descobrindo o Universo Back-end com Node.js e Express.js</p>
         </div>
         <ul className="links-box">
           <li>
@@ -27,6 +28,11 @@ function Presentation() {
           <li>
             <a href="https://www.linkedin.com/in/imgeff" className="daisy-tooltip" data-tip="Linkedin">
               <LinkedinLogo size={34} color="#a3a3a3" weight="fill" />
+            </a>
+          </li>
+          <li>
+            <a href="mailto:geffersonsilvaaraujo.gs@gmail.com" className="daisy-tooltip" data-tip="Email">
+              <Envelope size={34} color="#a3a3a3" weight="fill" />
             </a>
           </li>
           <li>

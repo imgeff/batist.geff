@@ -1,30 +1,38 @@
-#learnings-section {
+#learnings {
   @apply
   bg-neutral-900
-  mt-12
-  h-[110vh]
-  p-11
-  flex
-  flex-wrap
-  justify-center
-  items-center
+    mt-12
+    h-[110vh]
+    w-full
+    p-11
+    flex
+    flex-col
+    gap-10
+    justify-center
+    items-center
+    xl:h-[130vh]
+    lg:h-[180vh]
+  ;
 }
 
-#learnings-section h1 {
+#learnings h1 {
   text-shadow: 0 0 3px black;
 
   @apply
-  w-full
-  mt-10
-  text-4xl
-  text-center
-  text-emerald-500
-  font-semibold;
+    w-full
+    mt-10
+    text-4xl
+    text-center
+    text-emerald-500
+    font-semibold
+    sm:text-3xl
+    xsm:text-2xl
+  ;
 }
 
 #learnings-box {
   @apply
-  w-[90vw]
+  w-full
   flex
   items-center
   justify-center;
@@ -32,14 +40,13 @@
 
 .learnings-content {
   @apply
-  w-3/4
+  w-full
   py-10
   flex
   flex-wrap
   gap-4
   items-start
   justify-center
-  border-2
-  border-emerald-600
-  rounded-xl;
+  border-y-2
+  border-neutral-800
 }

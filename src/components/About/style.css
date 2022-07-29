@@ -1,75 +1,95 @@
-#about-section {
+#about {
   @apply
-  mt-72
-  h-[80vh]
-  bg-neutral-900
-  w-full
-  flex
-  flex-wrap
-  items-center
-  justify-center
-  p-6;
+    mt-72
+    h-[80vh]
+    bg-neutral-900
+    w-full
+    flex
+    flex-wrap
+    items-center
+    justify-center
+    p-6
+    lg:p-0
+  ;
 }
 
-#about-section aside {
+#about aside {
   @apply
-  flex
-  flex-col
-  gap-5
-  justify-center
-  items-center
-  mr-10
-  mt-[65px];
+    flex
+    flex-col
+    gap-5
+    justify-center
+    items-center
+    mr-10
+    mt-[65px]
+    lg:mx-0
+    lg:flex-row
+  ;
 }
 
-#about-section aside svg {
+#about aside svg {
   transition: .4s;
   @apply
-  rounded-2xl
-  p-1 border-2
-  border-neutral-400
-  cursor-pointer
-  shadow-md
-  shadow-neutral-400
-  hover:border-emerald-500
-  hover:shadow-emerald-500;
+    rounded-2xl
+    p-1 border-2
+    border-neutral-400
+    cursor-pointer
+    shadow-md
+    shadow-neutral-400
+    hover:border-emerald-500
+    hover:shadow-emerald-500
+  ;
 }
 
 .active {
   @apply
-  border-emerald-500
-  shadow-md
-  shadow-emerald-500
-  !important;
+    border-emerald-500
+    shadow-md
+    shadow-emerald-500
+    !important
+  ;
 }
 
 #about-description {
   @apply
-  w-1/2
-  my-10
-  flex
-  flex-wrap
-  items-center
-  justify-center;
+    w-1/2
+    my-10
+    flex
+    flex-wrap
+    items-center
+    justify-center
+    xl:w-5/6
+    2xl:w-2/3
+    lg:flex-col-reverse
+    lg:w-11/12
+  ;
 }
 
-#about-section h1 {
+#about h1 {
   text-shadow: 0 0 3px black;
   @apply
-  w-full
-  text-start
-  text-3xl
-  text-emerald-500
-  font-semibold;
+    w-full
+    text-start
+    text-3xl
+    text-emerald-500
+    font-semibold
+    sm:text-3xl
+    xsm:text-2xl
+  ;
 }
 
 #about-text {
   @apply
-  w-5/6
-  text-neutral-400;
+    w-5/6
+    text-neutral-400
+    lg:w-full
+    xsm:text-sm
+  ;
 }
 
 #about-text p {
   text-shadow: 0 0 2px black;
-  @apply font-semibold;
+  @apply
+    font-semibold
+  ;
 }

@@ -15,7 +15,7 @@ function About() {
   }
 
   return(
-    <section id="about-section">
+    <section id="about">
       <div id="about-description">
         <aside>
           <Student

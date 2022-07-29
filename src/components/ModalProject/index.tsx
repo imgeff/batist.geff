@@ -20,15 +20,15 @@ export function ModalProject({ nameProject, media, infos }: IProject) {
             <p className="py-4">{ infos.description }</p>
             <div>
               <h3>Funcionalidades</h3>
-              <strong>{ infos.functionalities.join(' - ')}</strong>
+              <p>{ infos.functionalities.join(' - ')}</p>
             </div>
             <div>
               <h3>Linguagens</h3>
-              <strong>{infos.languages.join(' - ')}</strong>
+              <p>{infos.languages.join(' - ')}</p>
             </div>
             <div>
               <h3>Ferramentas Utilizadas</h3>
-              <strong>{ infos.tools.join(' - ')}</strong>
+              <p>{ infos.tools.join(' - ')}</p>
             </div>
             <div>
               { infos.colaborators.length !== 0 && (

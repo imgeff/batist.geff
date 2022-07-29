@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import { ICardProps } from '../interfaces/Props';
-import { Modal } from '../Modal';
+import { ICardProps } from '../Learnings/interfaces/Props';
+import { ModalLearning } from '../ModalLearning';
 import './style.css';
 
-function Card({ icons, title, stack, level, levelTip, description, defaultColor }: ICardProps) {
+function LearningCard({ icons, title, stack, level, levelTip, description, defaultColor }: ICardProps) {
   const [iconIsActive, setIconIsActive] = useState(false);
   const iconCurrentColor = iconIsActive ? defaultColor : undefined;
 
@@ -22,7 +22,7 @@ function Card({ icons, title, stack, level, levelTip, description, defaultColor 
         <span>Stack: <strong style={ { color: iconCurrentColor } }>{ stack }</strong></span>
         <label htmlFor={`check-${title}`} id="learning-btn-description">Ver Mais</label>
       </div>
-      <Modal
+      <ModalLearning
         icons={ icons }
         title={ title }
         description={ description }
@@ -34,4 +34,4 @@ function Card({ icons, title, stack, level, levelTip, description, defaultColor 
   );
 }
 
-export { Card };
+export { LearningCard };
