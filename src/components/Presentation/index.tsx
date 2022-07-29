@@ -17,7 +17,7 @@ function Presentation() {
           <label id="career-text">Desenvolvedor Front-end</label>
         </div>
         <div className="text-body">
-          <p>Eu desenvolvo sites com JavaScript em React.js, e atualmente estou descobrindo o Universo Back-end com Node.js</p>
+          <p>Eu desenvolvo sites com JavaScript em React.js, e atualmente estou descobrindo o Universo Back-end com Node.js e Express.js</p>
         </div>
         <ul className="links-box">
           <li>
