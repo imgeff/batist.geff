@@ -5,14 +5,15 @@ import DeveloperImg from '../../images/Developer.png';
 import { typeWriter } from '../../helpers/animations/typeWriter';
 
 function Presentation() {
-  const careerLabel = document.getElementById('career-text');
-  useEffect(() => typeWriter(careerLabel), []);
-
+  useEffect(() => {
+    const careerLabel = document.getElementById('career-text');
+    typeWriter(careerLabel);
+  }, []);
   return (
 		<section id="presentation">
       <div id="presentation-box">
         <div className="text-header">
-          <h1>Olá, eu sou <br/><strong>Gefferson Batista.</strong></h1>
+          <h1>Olá, eu sou <br/><strong>Gefferson Batista. </strong></h1>
           <label id="career-text">Desenvolvedor Front-end</label>
         </div>
         <div className="text-body">
