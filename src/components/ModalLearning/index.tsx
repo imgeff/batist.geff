@@ -1,8 +1,8 @@
 import { Question, Star } from 'phosphor-react';
-import { IModalProps } from '../interfaces/Props';
+import { IModalProps } from '../Learnings/interfaces/Props';
 import './style.css';
 
-function Modal({ icons, title, level, levelTip, description, iconCurrentColor }: IModalProps) {
+function ModalLearning({ icons, title, level, levelTip, description, iconCurrentColor }: IModalProps) {
   const NEUTRAL400 = '#a3a3a3';
 
   return(
@@ -28,4 +28,4 @@ function Modal({ icons, title, level, levelTip, description, iconCurrentColor }:
   );
 }
 
-export { Modal };
+export { ModalLearning };

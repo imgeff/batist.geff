@@ -1,5 +1,5 @@
 import { learnings } from '../../data/LearningsData';
-import { Card } from './Card';
+import { LearningCard } from '../LearningCard';
 import './style.css';
 
 function Learnings() {
@@ -10,7 +10,7 @@ function Learnings() {
       <div id="learnings-box">
         <div className="learnings-content">
           { learnings.map((learning) => (
-            <Card
+            <LearningCard
               key={ learning.title }
               icons={ learning.icons }
               title={ learning.title }
