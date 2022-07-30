@@ -29,5 +29,6 @@ footer img {
   @apply
     aspect-square
     w-20
+    2xsm:hidden
   ;
 }

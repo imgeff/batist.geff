@@ -44,19 +44,18 @@
     flex
     justify-center
     items-center
+    px-1
   ;
 }
 
 #projects-btn > .btn-stack:nth-child(1) {
   @apply
-    rounded-tl-lg
     border-l-0
   ;
 }
 
 #projects-btn > .btn-stack:nth-child(4) {
   @apply
-    rounded-tr-lg
     border-r-0
   ;
 }
@@ -76,6 +75,7 @@
     transition-all
     sm:text-lg
     xsm:text-base
+    2xsm:text-sm
   ;
 }
 
@@ -88,5 +88,6 @@
     text-center
     hover:text-neutral-400
     transition-colors
+    2xsm:text-base
   ;
 }
