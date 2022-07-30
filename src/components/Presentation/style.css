@@ -42,6 +42,10 @@
     2xl:w-[50vw]
     lg:w-[80vw]
     lg:mt-40
+    2xsm:w-full
+    2xsm:border-x-0
+    2xsm:rounded-none
+    2xsm:p-4
   ;
 }
 

@@ -30,6 +30,8 @@ module.exports = {
       'sm': {'max': '663px'},
 
       'xsm': {'max': '520px'},
+
+      '2xsm': {'max': '470px'},
     }
 	},
 	plugins: [require('daisyui')],

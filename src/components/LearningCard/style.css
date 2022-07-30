@@ -14,6 +14,8 @@
     transition-none
     sm:w-52
     xsm:w-44
+    2xsm:w-40
+    2xsm:h-20
   ;
 }
 
@@ -58,6 +60,7 @@
     text-emerald-600
     sm:text-base
     xsm:text-sm
+    2xsm:text-[13px]
   ;
 }
 
@@ -70,6 +73,7 @@
     text-neutral-400
     font-bold
     xsm:text-[13px]
+    2xsm:text-[12px]
   ;
 }
 
@@ -83,21 +87,23 @@
 #learning-btn-description {
   letter-spacing: .5px;
   @apply
-  hidden
-  mt-1
-  text-sm
-  text-neutral-500
-  bg-neutral-900
-  font-bold
-  rounded-full
-  px-3
-  py-1
-  border-2
-  border-neutral-700
-  hover:border-emerald-600
-  hover:text-emerald-500
-  transition-all
-  cursor-pointer;
+    hidden
+    mt-1
+    text-sm
+    text-neutral-500
+    bg-neutral-900
+    font-bold
+    rounded-full
+    px-3
+    py-1
+    border-2
+    border-neutral-700
+    hover:border-emerald-600
+    hover:text-emerald-500
+    transition-all
+    cursor-pointer
+    2xsm:text-xs
+  ;
 }
 
 #learning-card:hover #learning-title-info {

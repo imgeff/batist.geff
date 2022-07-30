@@ -22,6 +22,7 @@
     h-12
     w-12
     xsm:-left-10
+    2xsm:-left-8
   ;
 }
 
@@ -31,6 +32,7 @@
     h-12
     w-12
     xsm:left-[98%]
+    2xsm:left-[95%]
   ;
 }
 
@@ -41,6 +43,8 @@
     w-12
     xsm:w-10
     xsm:h-10
+    2xsm:w-8
+    2xsm:h-8
   ;
 }
 
@@ -80,6 +84,8 @@
     rounded-xl
     xsm:max-w-[21rem]
     xsm:h-[17.4rem]
+    2xsm:max-w-[16.2rem]
+    2xsm:h-[13.59rem]
   ;
 }
 
@@ -106,6 +112,7 @@
     w-full
     rounded-t-lg
     xsm:h-44
+    2xsm:h-32
   ;
 }
 
@@ -142,6 +149,7 @@
     bg-emerald-500
     border-2
     border-black
+    2xsm:py-1
   ;
 }
 
@@ -153,6 +161,7 @@
     text-lg
     text-center
     text-black
+    2xsm:text-base
   ;
 }
 
