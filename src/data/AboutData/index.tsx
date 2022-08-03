@@ -4,16 +4,20 @@ const aboutMe = {
   title: 'Quem sou',
   description: (
     <>
-      <p>Meu nome é Gefferson Batista, tenho 19 anos e sou desenvolvedor Front-end.</p>
+      <p>Meu nome é Gefferson Batista, tenho 20 anos e estudo Desenvolvimento Web Full-stack na Trybe, onde criei aplicações com JavaScript e TypeScript.
+        No Front-end desenvolvi projetos individuais e em grupo com React.js, apliquei testes com Jest e RTL, gerenciei estados da aplicação com Context API e Redux e utilizei hooks. Também no Back-end fiz projetos individuais e em grupo
+        com Node.js e Express.js, utilizei banco de dados relacionais com MySQL e não relacionais com MongoDB, utilizei ORMs e fiz testes unitários e de integração com Mocha, Chai e Sinon, aprendi POO e apliquei conceitos SOLID.
+      </p>
+      <br/>
       <p>Ao longo da minha vida me acostumei a resolver problemas quando o assunto era tecnologia, virei referência dentro da minha família
       por solucionar problemas de software.</p>
       <br/>
       <p>Ao terminar o ensino médio acabei descobrindo o mundo da programação, logo de início
       achei incrível a possibilidade de falar com o computador, e ao começar minha jornada na Trybe com o objetivo de me tornar desenvolvedor web full-stack
-      vi que as possibilidades não se limitam, criar aplicações front-end se tornou um hobbie, e hoje estou descobrindo que no back-end também não é muito diferente,
+      vi que as possibilidades não se limitam, criar aplicações front-end se tornou um hobbie, e descobri que no back-end também não é muito diferente,
       cada conhecimento novo que adquiro, se torna ferramentas para desenvolver ideias e sonhos, além de solucionar problemas.</p>
       <br/>
-      <p>Considero programação como uma arte, se Van gogh tinha um pincel, eu tenho um teclado ;). 🌻🧑🏻‍💻</p>
+      <p>Considero programação como uma arte, se Van gogh tinha um pincel, eu tenho um teclado. 🌻🧑🏻‍💻</p>
     </>
   )
 };

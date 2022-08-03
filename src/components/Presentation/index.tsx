@@ -14,10 +14,10 @@ function Presentation() {
       <div id="presentation-box">
         <div className="text-header">
           <h1>Olá, eu sou <br/><strong>Gefferson Batista. </strong></h1>
-          <label id="career-text">Desenvolvedor Front-end</label>
+          <label id="career-text">Desenvolvedor Full-stack</label>
         </div>
         <div className="text-body">
-          <p>Eu desenvolvo sites com JavaScript em React.js, e atualmente estou descobrindo o Universo Back-end com Node.js e Express.js</p>
+          <p>Eu desenvolvo aplicações com JavaScript e TypeScript, tendo projetos Front-end com React.js e projetos Back-end com Node.js e Express.js, atualmente eu estou estudando Python.</p>
         </div>
         <ul className="links-box">
           <li>
