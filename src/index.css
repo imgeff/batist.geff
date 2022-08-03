@@ -12,6 +12,31 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* ScrollBar on Firefox */
+* {
+  scrollbar-color: #10b981 #10b981;
+  scroll-behavior: smooth;
+}
+
+/* ScrollBar on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 0px;
+}
+
+*::-webkit-scrollbar-corner {
+  background: #262626;
+}
+
+*::-webkit-scrollbar-track {
+  background: #262626;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #10b981;
+  border-radius: 20px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
