@@ -14,6 +14,7 @@ footer {
   text-neutral-500
   bg-black
   border-neutral-900
+    xsm:text-sm
   ;
 }
 
