@@ -37,7 +37,7 @@ export function ModalProject({ nameProject, media, infos }: IProject) {
                   <ul>
                     { infos.colaborators.map((colaborator) => {
                       return (
-                        <li key={ colaborator.name }>
+                        <li key={ colaborator.name } className="nav-link">
                           <a href={ colaborator.github } target="_blank" rel="noreferrer">{ colaborator.name }</a>
                         </li>
                       );
