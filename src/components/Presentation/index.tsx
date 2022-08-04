@@ -21,27 +21,27 @@ function Presentation() {
         </div>
         <ul className="links-box">
           <li>
-            <a href="https://github.com/imgeff" className="daisy-tooltip" data-tip="Github">
+            <a href="https://github.com/imgeff" target="_blank" rel="noreferrer" className="daisy-tooltip" data-tip="Github">
               <GithubLogo size={34} color="#a3a3a3" weight="fill" />
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/imgeff" className="daisy-tooltip" data-tip="Linkedin">
+            <a href="https://www.linkedin.com/in/imgeff" target="_blank" rel="noreferrer" className="daisy-tooltip" data-tip="Linkedin">
               <LinkedinLogo size={34} color="#a3a3a3" weight="fill" />
             </a>
           </li>
           <li>
-            <a href="mailto:geffersonsilvaaraujo.gs@gmail.com" className="daisy-tooltip" data-tip="Email">
+            <a href="mailto:imgeff.dev@gmail.com" target="_blank" rel="noreferrer" className="daisy-tooltip" data-tip="Email">
               <Envelope size={34} color="#a3a3a3" weight="fill" />
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/batistgeff/" className="daisy-tooltip" data-tip="Instagram">
+            <a href="https://www.instagram.com/batistgeff/" target="_blank" rel="noreferrer" className="daisy-tooltip" data-tip="Instagram">
               <InstagramLogo size={34} color="#a3a3a3" weight="fill" />
             </a>
           </li>
           <li>
-            <a href="https://wa.me/5577981029922" className="daisy-tooltip" data-tip="Whatsapp">
+            <a href="https://wa.me/5577981029922" target="_blank" rel="noreferrer" className="daisy-tooltip" data-tip="Whatsapp">
               <WhatsappLogo size={34} color="#a3a3a3" weight="fill" />
             </a>
           </li>
@@ -49,7 +49,7 @@ function Presentation() {
       </div>
       <div className="ilustration-box">
         <figure className="image-box">
-          <img src={ DeveloperImg } alt="" />
+          <img src={ DeveloperImg } alt="Desenvolvedor montando elementos de uma página" />
         </figure>
       </div>
 		</section>
