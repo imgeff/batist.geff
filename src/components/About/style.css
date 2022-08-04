@@ -3,6 +3,7 @@
     mt-72
     bg-neutral-900
     w-full
+    min-h-[80vh]
     flex
     flex-wrap
     items-center

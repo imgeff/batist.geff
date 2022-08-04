@@ -157,7 +157,7 @@
   letter-spacing: 1px;
   @apply
     w-full
-    font-black
+    font-bold
     text-lg
     text-center
     text-black

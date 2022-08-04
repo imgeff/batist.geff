@@ -92,7 +92,7 @@
     py-2
     text-base
     text-center
-    font-black
+    font-bold
     text-neutral-400
     bg-neutral-800
     border-2
@@ -155,7 +155,7 @@
     w-full
     text-start
     text-neutral-400
-    font-black
+    font-bold
   ;
 }
 

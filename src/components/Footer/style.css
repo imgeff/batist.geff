@@ -9,7 +9,8 @@ footer {
     flex
     justify-around
     items-center
-    font-semibold
+    font-bold
+    text-lg
     border-t-2
   text-neutral-500
   bg-black
