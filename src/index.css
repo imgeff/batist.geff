@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-color: #151514;
+  background-color: #000000;
   margin: 0;
   font-family: 'Titillium Web', 'Ubuntu', 'Josefin Sans', -apple-system, BlinkMacSystemFont;
   -webkit-font-smoothing: antialiased;
