@@ -15,7 +15,7 @@
     flex
     justify-around
     h-16 items-center
-    text-gray-400
+    text-neutral-400
     font-semibold
     border-b-2
     border-neutral-900
@@ -41,7 +41,7 @@
 /* https://www.instagram.com/reel/CcDYfY3lAyC/?igshid=YmMyMTA2M2Y= */
 .nav-link {
   @apply
-    hover:text-gray-300
+    hover:text-neutral-300
     inline-block
     relative
   ;

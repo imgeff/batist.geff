@@ -2,7 +2,6 @@
   @apply
     bg-black
     mt-12
-    h-[80vh]
     p-11
     flex
     flex-col
@@ -93,7 +92,7 @@
     py-2
     text-base
     text-center
-    font-black
+    font-bold
     text-neutral-400
     bg-neutral-800
     border-2
@@ -156,7 +155,7 @@
     w-full
     text-start
     text-neutral-400
-    font-black
+    font-bold
   ;
 }
 

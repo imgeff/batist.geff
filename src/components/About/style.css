@@ -1,9 +1,9 @@
 #about {
   @apply
     mt-72
-    h-[80vh]
     bg-neutral-900
     w-full
+    min-h-[80vh]
     flex
     flex-wrap
     items-center
@@ -38,6 +38,10 @@
     shadow-neutral-400
     hover:border-emerald-500
     hover:shadow-emerald-500
+    xsm:h-11
+    xsm:w-11
+    2xsm:h-10
+    2xsm:w-10
   ;
 }
 

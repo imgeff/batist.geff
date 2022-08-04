@@ -5,11 +5,34 @@
 body {
   background-color: #151514;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Titillium Web', 'Ubuntu', 'Josefin Sans', -apple-system, BlinkMacSystemFont;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* ScrollBar on Firefox */
+* {
+  scrollbar-color: #10b981 #10b981;
+  scroll-behavior: smooth;
+}
+
+/* ScrollBar on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 0px;
+}
+
+*::-webkit-scrollbar-corner {
+  background: #262626;
+}
+
+*::-webkit-scrollbar-track {
+  background: #262626;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #10b981;
+  border-radius: 20px;
 }
 
 code {

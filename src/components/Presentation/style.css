@@ -6,11 +6,10 @@
     mt-40
     mx-auto
     w-4/5
-    h-[50vh]
+    pb-10
     xl:w-full
     lg:flex-col-reverse
     lg:gap-20
-    lg:h-[25vh]
   ;
 }
 
