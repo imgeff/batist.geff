@@ -1,0 +1,127 @@
+.certificate {
+  @apply
+    w-[27rem]
+    h-56
+    relative
+    flex
+    justify-start
+    items-center
+    rounded-lg
+    border-2
+    border-neutral-700
+    xsm:w-80
+    xsm:h-40
+  ;
+}
+
+.certificate figure {
+  @apply
+    w-20
+    h-full
+    p-2
+    flex
+    justify-center
+    items-center
+    border-r-2
+    border-neutral-700
+  ;
+}
+
+.certificate-description {
+  background: rgba(38,38,38,0.4);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+
+  @apply
+    w-full
+    h-full
+    absolute
+    hidden
+    flex-col
+    justify-around
+    items-center
+    rounded-lg
+  ;
+}
+
+.certificate a {
+  @apply
+    w-32
+    py-2
+    text-base
+    text-center
+    font-bold
+    text-neutral-400
+    bg-neutral-800
+    border-2
+    border-neutral-500
+    rounded-full
+    hover:border-emerald-500
+    hover:text-emerald-500
+    hover:bg-neutral-900
+    transition-all
+    xsm:w-28
+  ;
+}
+
+.certificate-description p {
+  text-shadow: 0 0 5px black;
+
+  @apply
+    w-[25rem]
+    text-neutral-400
+    text-[15px]
+    font-bold
+    text-center
+    xsm:text-xs
+    xsm:w-11/12
+  ;
+}
+
+.certificate-info {
+  @apply
+    w-full
+    h-full
+    flex
+    flex-col
+    justify-center
+    items-center
+  ;
+}
+
+.certificate-info span {
+  @apply
+    w-full
+    flex
+    justify-center
+    items-center
+    border-b-2
+    border-neutral-700
+    xsm:text-sm
+  ;
+}
+
+.certificate-info span svg {
+  @apply
+    mx-3
+    mb-1
+  ;
+}
+
+.certificate-info label {
+  @apply
+    w-full
+    text-start
+    text-neutral-400
+    font-bold
+  ;
+}
+
+.certificate strong {
+  @apply
+    w-full
+    p-1
+    text-start
+    text-neutral-500
+  ;
+}
