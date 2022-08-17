@@ -48,12 +48,10 @@ const aboutGames = {
     geração. Os Games foi o motivo da conexão entre mim e o mundo da tecnologia, eu já gostava muito das brincadeiras tradicionais de infância
     porém quando eu descobri os videogames um universo se abriu na minha cabeça, e nesse universo eu vivia para um propósito, <strong>diversão.</strong></p>
     <br/>
-    <p>Comecei com os joguinhos de camelô, e depois comecei a pegar o celular escondido das pessoas da minha família. Eu sempre fui obediente aos meus pais porém
-      existiam dois motivos no qual eu saía de casa sem a permissão deles, o primeiro era pra jogar bola, e o segundo motivo veio quando eu descobri que as LAN house do meu bairro tinham consoles,
-      acabava saindo escondido pra jogar um futebol ou algum jogo na LAN house, as vezes eu perdia a noção do tempo e acabava sendo descoberto.</p>
+    <p>Comecei com os joguinhos de camelô, depois descobri o celular e quando eu descobri que as LAN house do meu bairro tinham consoles,
+      acabava indo frequentemente jogar algum jogo na LAN house, e as vezes eu acabava perdendo a noção do tempo.</p>
     <br/>
-    <p>Pra resolver esse problema de sair escondido, minha mãe decidiu comprar um playstation 2 pra mim, era de segunda mão e já tinham lançado o 3 porém foi o melhor presente de aniversário
-      que eu já ganhei, contava as horas pra amanhecer o dia e eu chegar da escola pra continuar minha saga nos jogos. 🎮👾
+    <p>Pra resolver esse problema, minha mãe decidiu comprar um playstation 2 pra mim, a partir daí meu quarto se tornou o meu lugar favorito da casa. 🎮👾
     </p>
   </>
 };
@@ -72,7 +70,7 @@ const aboutUniverse = {
       </p>
       <br />
       <p>Buracos negros, estrelas, planetas e galáxias todos com suas particularidade
-        e a gente no meio disso tudo, com certeza esse é o meu mistério favorito. 🚀🪐
+        e a gente no meio disso tudo, com certeza esse é um dos meus mistérios favoritos. 🚀🪐
       </p>
     </>
 };
