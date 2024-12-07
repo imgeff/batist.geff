@@ -35,16 +35,6 @@ function Presentation() {
               <Envelope size={34} color="#a3a3a3" weight="fill" />
             </a>
           </li>
-          <li>
-            <a href="https://www.instagram.com/batistgeff/" target="_blank" rel="noreferrer" className="daisy-tooltip" data-tip="Instagram">
-              <InstagramLogo size={34} color="#a3a3a3" weight="fill" />
-            </a>
-          </li>
-          <li>
-            <a href="https://wa.me/5577981029922" target="_blank" rel="noreferrer" className="daisy-tooltip" data-tip="Whatsapp">
-              <WhatsappLogo size={34} color="#a3a3a3" weight="fill" />
-            </a>
-          </li>
         </ul>
       </div>
       <div className="ilustration-box">
